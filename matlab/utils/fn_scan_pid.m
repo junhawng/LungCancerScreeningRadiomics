@@ -5,7 +5,6 @@ dirnum = size(dirlist,1);
 
 dicom_path_list = cell(0);
 pid_list= cell(0);
-
 j = 1;
 %% get directory lists
 
