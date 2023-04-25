@@ -30,7 +30,7 @@ def make_pipeline_LIDC_analysis(experiment_set):
     pipeline = ruffus.Pipeline(pipeline_name)
     
     starting_file_names = tasks.load_scan_list(data_path)
-    #print(starting_file_names)
+    print(starting_file_names)
 
     pipeline.originate(name="task_originate",
                        task_func=tasks.originate_pylidc,
