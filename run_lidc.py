@@ -129,6 +129,7 @@ if __name__ == "__main__":
 
     experiment_set = 'nodule-lidc'
     pipeline_LIDC = make_pipeline_LIDC_analysis(experiment_set)
+    print("pass")
 
     parser = cmdline.get_argparse(description='LIDC radiomics')
 

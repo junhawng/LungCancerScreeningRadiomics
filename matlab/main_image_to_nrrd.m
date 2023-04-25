@@ -24,7 +24,7 @@ nodule_img_path=[data_path '/' experiment_set];
 if ~isdir(output_path); mkdir(output_path); end
 if ~isdir(ct_img_path); mkdir(ct_img_path); end
 
-
+        
 %% get pids
 tic
 filename_pid_list = [output_path '/dicom_pid_list.mat'];
